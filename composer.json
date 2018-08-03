@@ -1,0 +1,27 @@
+{
+    "name": "VappsST/metaphone",
+    "description": "Library for the use of PHP's metaphone function in Brazilian Portuguese",
+    "keywords": [
+        "metaphone",
+        "php-library"
+    ],
+    "license": "MIT",
+    "authors": [
+    {
+        "name": "Filipe Voges",
+        "email" : "filipe.voges@vapps.com.br"
+    }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Vapps\\": "src/Vapps/"
+	},
+        "files": [
+            "lib/helpers/helpers.php"
+        ]
+    },
+    "require" : {
+        "php": ">=7",
+        "chdemko/sorted-collections": "1.0.*@dev"
+    }
+}
